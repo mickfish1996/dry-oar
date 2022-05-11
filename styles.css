@@ -1,4 +1,50 @@
 header{
     
     background-color: #588b8b;
+
+}
+
+nav {
+    background-color:#F8E16C;
+    text-align: center;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:#898980;
+    
+}
+
+nav a:hover{
+    background-color: #898980;
+    color: #DFFDFF
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+
+
+}
+
+.button-box {
+    text-align: center;
+}
+
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #588b8b;
+}
+
+footer, h3, a:hover{
+    background-color: #588b8b;
 }
