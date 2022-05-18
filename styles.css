@@ -111,7 +111,7 @@ p {
     border:#588b8b;
 }
 
-.book hover, .join hover {
+.book:hover, .join:hover {
     background-color: #898980;
     color: #DFFDFF;
 }
