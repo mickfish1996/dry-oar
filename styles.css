@@ -1,18 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Akshar|Laro');
+
+
 header{
     
     background-color: #588b8b;
 
 }
 
-nav {
+/* nav {
     background-color:#F8E16C;
     text-align: center;
+        font-family: Laro, Helvetica, sans-serif;
     
-}
+} */
 
 nav a{
     text-decoration: none;
     color:#898980;
+    text-align: center;
+    padding: 35px;
+    font-family: Laro, Helvetica, sans-serif;
     
 }
 
@@ -21,6 +28,12 @@ nav a:hover{
     color: #DFFDFF
 }
 
+#links a{
+    text-decoration: none;
+    background-color: #F8E16C;
+    color:#898980;
+    text-align: center;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -34,8 +47,9 @@ nav a:hover{
 
 
     
-#hero-msg h1, #hero-msg h4{
+#hero-msg h1, #hero-msg h4, h2{
     text-align: center;
+    font-family: Akshar;
 }
 
 main section {
@@ -47,18 +61,102 @@ main section {
     background-color: #588b8b;
 }
 
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+.msg {
+    margin-top: 50px;
+    padding: 35px;
+}
 footer, h3, .msg{
     background-color: #588b8b;
     color: #DFFDFF;
 }
 
-a:hover{
+#links a:hover{
     background-color: #898980;
     color:#DFFDFF
 }
 
-a {
+.links a:hover{
+    background-color: #898980;
+    color:#DFFDFF
+}
+
+.links a{
     text-decoration: none;
     background-color: #F8E16C;
     color:#898980;
+
 }
+
+p {
+    font-family: Laro, Helvetica, sans-serif;
+}
+
+.home-title {
+    font-size: 2em;
+}
+
+.book, .join {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border:#588b8b;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#hero-box{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer, .social{
+    padding-top: 15px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.home-title{
+    margin-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #DFFDFF;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.mountains {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
