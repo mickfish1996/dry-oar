@@ -101,11 +101,19 @@ p {
 }
 
 .book, .join {
+    color:#898980;
+    text-decoration: none;
+    background-color: #F8E16C;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
     border:#588b8b;
+}
+
+.book:hover, .join:hover {
+    background-color: #898980;
+    color: #DFFDFF;
 }
 
 .msg p {
