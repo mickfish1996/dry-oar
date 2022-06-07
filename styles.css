@@ -4,6 +4,7 @@
 header{
     
     background-color: #588b8b;
+    text-align: center;
 
 }
 
@@ -20,6 +21,7 @@ nav a{
     text-align: center;
     padding: 35px;
     font-family: Laro, Helvetica, sans-serif;
+    border-radius: 15px;
     
 }
 
@@ -154,7 +156,7 @@ footer, .social{
 }
 
 .home-title{
-    margin-top: 10px;
+    
 }
 
 .rivers-card, .camping-card, .rapids-card{
@@ -200,10 +202,11 @@ main section img {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 120px;
+    margin-top: 140px;
 }
 
 #home-title {
+    margin-top: 10px;
     color:#F8E16C;
 }
 
