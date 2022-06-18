@@ -246,6 +246,79 @@ main section img {
     box-shadow: 5px 5px 10px black;
 }
 
+
+.salmonRiver {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+
+#salmon-img{
+    padding: 1em 1em;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+#salmon-header
+{
+
+    grid-column: 1/4;
+}
+
+#salmon-p1, #salmon-p2, #salmon-p3{
+    margin-left: 20px;
+    margin-right: 30px;
+    grid-column: 2/4;
+}
+
+.desolationRiver {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+
+#desolation-img{
+    padding: 1em 1em;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+#desolation-header
+{
+    grid-column: 1/4;
+}
+
+#desolation-p1, #desolation-p2, #desolation-p3{
+    margin-left: 20px;
+    margin-right: 30px;
+    grid-column: 2/4;
+}
+
+.grandCanyon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: -150px;
+}
+
+#grandCanyon-img{
+    padding: 1em 1em;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+#grandCanyon-header
+{
+
+    grid-column: 1/4;
+}
+
+#grandCanyon-p1, #grandCanyon-p2, #grandCanyon-p3{
+    margin-left: 20px;
+    margin-right: 30px;
+    grid-column: 2/4;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
